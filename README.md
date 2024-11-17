@@ -11,3 +11,5 @@ This fascination continues today, with labyrinths appearing in recreational cont
 I think this is an interesting game to do in c++ because i can create diferent kinds not only of maps but also different types of solutions,
 making the gameplay more dynamic and varied. Personally i get inspired by Warren Robinett who makes the game Adventure, I know him because of the movie Ready player one
 and I think the labyrinth is a very tricky and fun way to chill out of the world so thats why I want to make one.
+
+![labyrinth drawio (1)](https://github.com/user-attachments/assets/95b748fd-0f43-4f84-a2b0-47b710a2a295)
