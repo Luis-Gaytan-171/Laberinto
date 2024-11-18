@@ -14,4 +14,4 @@ and I think the labyrinth is a very tricky and fun way to chill out of the world
 
 Class Diagram
 
-![labyrinth drawio (1)](https://github.com/user-attachments/assets/95b748fd-0f43-4f84-a2b0-47b710a2a295)
+![labyrinth drawio (2)](https://github.com/user-attachments/assets/f52c5bd9-d4ec-4b02-9a39-ab4cde9f7264)
