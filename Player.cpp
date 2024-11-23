@@ -1,25 +1,29 @@
 #include "Player.h"
 
-Player::Player(int x, int y) : posX(x), posY(y) {}
+Player::Player(const int x, const int y) : posX(x), posY(y) {}
 
-void Player::move(char direction, const Maze& maze) {
+void Player::move(const char direction, const Maze& maze) {
     switch (direction) {
         case 'w':
             if (maze.isValidMove(posX - 1, posY)) posX--;
-            break;
+        break;
         case 's':
             if (maze.isValidMove(posX + 1, posY)) posX++;
-            break;
+        break;
         case 'a':
             if (maze.isValidMove(posX, posY - 1)) posY--;
-            break;
+        break;
         case 'd':
             if (maze.isValidMove(posX, posY + 1)) posY++;
-            break;
+        break;
         default:
             break;
     }
 }
+int Player::getPosX() const {
+    return posX;
+}
 
-int Player::getPosX() const { return posX; }
-int Player::getPosY() const { return posY; }
+int Player::getPosY() const {
+    return posY;
+}
