@@ -18,20 +18,15 @@ Class Diagram
 
 Classes explanation:
 
--Game:
-  Is the principal class of the program, its coposed by the classes Player, Achievement and Maze, and its functiin its to have control on whats happening in the game
-  
--Player:
-  Records the x and y postion of the player and its methods let the player to move in game
-  
--Achievemnt:
- Take control of things taht you reach in the game like an easter egg
- 
--Maze:
-  Composed by the calss zone, the class maze is what controls all of the valid movements of the user, and also generates the map
-  
--Zone:
-  This class tells you the type of zone where you are and let you interect whit it
-  
--SecretZone:
-  Related by inheritance to the class zone, this class generates a zone where you can find the easter egg of the game
+-Game: Is the principal class of the program, its composed by the classes Player, Achievement and Maze, and its function its to have control on what's happening in the game
+
+-Player: Records the x and y position of the player and its methods let the player to move in game
+
+-Achievement: Take control of things that you reach in the game like an easter egg
+
+-Maze: Composed by the class zone, the class maze is what controls all of the valid movements of the user, and also generates the map
+
+-Zone: This class tells you the type of zone where you are and let you interact with it
+
+-SecretZone: Related by inheritance to the class zone, this class generates a zone where you can find the easter egg of the game
+
