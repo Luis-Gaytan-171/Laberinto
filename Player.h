@@ -5,10 +5,10 @@
 
 class Player {
 public:
-    Player(int x, int y);
+    Player(int x, int y); //get the position of the player
     void move(char direction, const Maze& maze);
-    int getPosX() const;
-    int getPosY() const;
+    [[nodiscard]] int getPosX() const;
+    [[nodiscard]] int getPosY() const;
 
 private:
     int posX;
