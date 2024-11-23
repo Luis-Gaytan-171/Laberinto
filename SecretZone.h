@@ -4,12 +4,12 @@
 #include "Zone.h"
 #include <string>
 
-class SecretZone : public Zone {
+class SecretZone : public Zone { //declare the secret zone
 public:
     SecretZone();
     std::string interact() override;
 
-private:
+private: //check if this zone is discovered
     bool discovered;
 };
 
