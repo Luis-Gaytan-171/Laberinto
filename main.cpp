@@ -8,7 +8,7 @@ int main() {
     char direction;
     std::cout << "Welcome to the Maze Game.\n";
 
-    while (true) {
+    while (true) { //get the move of the player
         std::cout << "Move (w=up, s=down, a=left, d=right, q=quit): ";
         std::cin >> direction;
         if (direction == 'q') break;
