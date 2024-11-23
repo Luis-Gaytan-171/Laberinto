@@ -14,4 +14,24 @@ and I think the labyrinth is a very tricky and fun way to chill out of the world
 
 Class Diagram
 
-![labyrinth drawio (5)](https://github.com/user-attachments/assets/228616a5-e5f3-4076-bddb-3749f99314bf)
+![labyrinth drawio (1)](https://github.com/user-attachments/assets/b644eef4-2b2d-420f-a774-b15faafb2d04)
+
+Classes explanation:
+
+-Game:
+  Is the principal class of the program, its coposed by the classes Player, Achievement and Maze, and its functiin its to have control on whats happening in the game
+  
+-Player:
+  Records the x and y postion of the player and its methods let the player to move in game
+  
+-Achievemnt:
+ Take control of things taht you reach in the game like an easter egg
+ 
+-Maze:
+  Composed by the calss zone, the class maze is what controls all of the valid movements of the user, and also generates the map
+  
+-Zone:
+  This class tells you the type of zone where you are and let you interect whit it
+  
+-SecretZone:
+  Related by inheritance to the class zone, this class generates a zone where you can find the easter egg of the game
