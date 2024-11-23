@@ -10,10 +10,11 @@
 class Game {
 public:
     Game(const std::string& playerName, int rows, int cols);
-    void start();
+
+    static void start(); // start the game
     std::string movePlayer(char direction);
 
-private:
+private: //call the element to play the game
     Player player;
     Maze maze;
     std::vector<Achievement> achievements;
