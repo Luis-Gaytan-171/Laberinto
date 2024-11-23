@@ -7,9 +7,9 @@
 
 class Maze {
 public:
-    Maze(int rows, int cols);
-    std::string displayMaze(int playerX, int playerY) const;
-    bool isValidMove(int x, int y) const;
+    Maze(int rows, int cols); //show the maze in the screen
+    [[nodiscard]] std::string displayMaze(int playerX, int playerY) const;
+    [[nodiscard]] bool isValidMove(int x, int y) const;
     Zone* getZone(int x, int y);
 
 private:
